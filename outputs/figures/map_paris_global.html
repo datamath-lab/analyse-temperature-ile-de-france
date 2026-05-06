@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_86a7c6d24be4a348948720bbe3788e40 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_86a7c6d24be4a348948720bbe3788e40" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_86a7c6d24be4a348948720bbe3788e40 = L.map(
+                "map_86a7c6d24be4a348948720bbe3788e40",
+                {
+                    center: [48.85, 2.35],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b1840910a9878260039d3401669eab6e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b1840910a9878260039d3401669eab6e.addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            var circle_marker_65a753acfe683c51547128de4403a0a0 = L.circleMarker(
+                [48.983167, 2.126],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.99871244635193, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_65a753acfe683c51547128de4403a0a0.bindTooltip(
+                `<div>
+                     Couronne - ACHERES - 17.0°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68b9358e8494d42f88eede8495731bbf = L.circleMarker(
+                [48.6005, 2.326],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.959656652360515, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_68b9358e8494d42f88eede8495731bbf.bindTooltip(
+                `<div>
+                     Couronne - BRETIGNY_SAPC - 16.5°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_97eea5bd460d3043b2aad1a817b87762 = L.circleMarker(
+                [48.964667, 3.011833],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.56008583690987, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_97eea5bd460d3043b2aad1a817b87762.bindTooltip(
+                `<div>
+                     Couronne - CHANGIS - 16.8°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0c9f8f2efd443a52b7a1c60f82e8dfaa = L.circleMarker(
+                [48.726833, 3.203333],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.91931330472103, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_0c9f8f2efd443a52b7a1c60f82e8dfaa.bindTooltip(
+                `<div>
+                     Couronne - CHEVRU - 15.5°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08f08e3e07b02ae131a4e46a394afba9 = L.circleMarker(
+                [48.421833, 2.374333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.139914163090133, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_08f08e3e07b02ae131a4e46a394afba9.bindTooltip(
+                `<div>
+                     Couronne - COURDIMANCHE - 16.6°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e08525e36c44567c31ae81cda0c99839 = L.circleMarker(
+                [49.092833, 3.070333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.226609442060088, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_e08525e36c44567c31ae81cda0c99839.bindTooltip(
+                `<div>
+                     Couronne - CROUY-SUR-OURCQ - 17.1°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1c9b5f7a3d873b7a987db39875393608 = L.circleMarker(
+                [48.474667, 3.1265],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.935193133047207, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_1c9b5f7a3d873b7a987db39875393608.bindTooltip(
+                `<div>
+                     Couronne - DONNEMARIE - 17.0°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_00a37801a15fc72ae329cf1edc32be7a = L.circleMarker(
+                [48.526167, 1.993],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.334505494505493, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_00a37801a15fc72ae329cf1edc32be7a.bindTooltip(
+                `<div>
+                     Couronne - DOURDAN - 16.2°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_37e0c0088486fe51dd70fbc1fb6c81e2 = L.circleMarker(
+                [48.406, 2.6785],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.818884120171674, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_37e0c0088486fe51dd70fbc1fb6c81e2.bindTooltip(
+                `<div>
+                     Couronne - FONTAINEBLEAU_SAPC - 16.9°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4aed1f4637672ef805e6567ac9c44243 = L.circleMarker(
+                [48.676833, 2.135833],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.997854077253216, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_4aed1f4637672ef805e6567ac9c44243.bindTooltip(
+                `<div>
+                     Couronne - GOMETZ-LE-CHAT. - 16.5°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_10a7ba045eabf7cbf56249ce8d52a205 = L.circleMarker(
+                [48.6895, 3.125167],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.111158798283263, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_10a7ba045eabf7cbf56249ce8d52a205.bindTooltip(
+                `<div>
+                     Couronne - JOUY-LE-CHATEL - 16.1°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_14a3edaad54f6df6e8fd2a5c713d9a37 = L.circleMarker(
+                [48.351667, 3.023333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.21587982832618, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_14a3edaad54f6df6e8fd2a5c713d9a37.bindTooltip(
+                `<div>
+                     Couronne - LA BROSSE-MX - 16.6°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_23737612a16f40c418072254d74ee34e = L.circleMarker(
+                [48.967333, 2.427667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.055364806866955, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_23737612a16f40c418072254d74ee34e.bindTooltip(
+                `<div>
+                     Couronne - LE BOURGET - 16.5°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1c33d98676d2f50a7423e019af170632 = L.circleMarker(
+                [48.887833, 2.115833],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.575536480686694, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_1c33d98676d2f50a7423e019af170632.bindTooltip(
+                `<div>
+                     Couronne - LE PECQ - 17.3°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5860cb9f81e56a74267a81a5625dc9ec = L.circleMarker(
+                [48.693667, 1.867],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.359482758620686, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_5860cb9f81e56a74267a81a5625dc9ec.bindTooltip(
+                `<div>
+                     Couronne - LE PERRAY - 16.2°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3763f30d57d378c6e8d421f3d17747bd = L.circleMarker(
+                [49.040333, 2.406667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.694420600858372, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_3763f30d57d378c6e8d421f3d17747bd.bindTooltip(
+                `<div>
+                     Couronne - LE PLESSIS GASSOT - 16.3°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e423e67f118c41f5b2444890e5c91198 = L.circleMarker(
+                [48.963667, 1.674167],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.218025751072965, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_e423e67f118c41f5b2444890e5c91198.bindTooltip(
+                `<div>
+                     Couronne - MAGNANVILLE - 16.1°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_db3dd568962f1c0de44cb50892b431cb = L.circleMarker(
+                [48.909167, 1.8475],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.468669527896992, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_db3dd568962f1c0de44cb50892b431cb.bindTooltip(
+                `<div>
+                     Couronne - MAULE - 17.2°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_653fa46732c5c61601df260c4db7b909 = L.circleMarker(
+                [48.610333, 2.6795],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.606008583690986, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_653fa46732c5c61601df260c4db7b909.bindTooltip(
+                `<div>
+                     Couronne - MELUN - 16.3°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa1c4ee973cc31d998076b9b2749c0a8 = L.circleMarker(
+                [48.382167, 2.431833],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.86866952789699, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_aa1c4ee973cc31d998076b9b2749c0a8.bindTooltip(
+                `<div>
+                     Couronne - MILLY-LA-FORET - 16.9°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_21628da1c667a1cecea30068359e104b = L.circleMarker(
+                [48.847, 3.0585],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.203433476394849, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_21628da1c667a1cecea30068359e104b.bindTooltip(
+                `<div>
+                     Couronne - MOUROUX_SAPC - 15.6°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_edb856e95153b608215548c1e97c0170 = L.circleMarker(
+                [48.595333, 3.007667],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.745064377682404, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_edb856e95153b608215548c1e97c0170.bindTooltip(
+                `<div>
+                     Couronne - NANGIS - 15.9°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5e8da07f13673643f698ecebd38f6c83 = L.circleMarker(
+                [48.27, 2.715],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.597830802603035, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_5e8da07f13673643f698ecebd38f6c83.bindTooltip(
+                `<div>
+                     Couronne - NEMOURS - 17.3°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acc59bcbdcb8f665cf54f909602bebcc = L.circleMarker(
+                [48.859833, 2.546333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.595278969957079, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_acc59bcbdcb8f665cf54f909602bebcc.bindTooltip(
+                `<div>
+                     Couronne - NEUILLY-SUR-M. - 17.3°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b0818c3d84690fca0758f1fd8c6bfcd3 = L.circleMarker(
+                [48.718, 2.397],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.23476394849785, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_b0818c3d84690fca0758f1fd8c6bfcd3.bindTooltip(
+                `<div>
+                     Couronne - ORLY - 16.6°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_74e8b074ed412d9345da518206bf7bed = L.circleMarker(
+                [49.0905, 2.027667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.017596566523608, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_74e8b074ed412d9345da518206bf7bed.bindTooltip(
+                `<div>
+                     Couronne - PONTOISE - AERO - 16.0°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6f30e29830dd14ed8234ff85ce579767 = L.circleMarker(
+                [48.867833, 1.673333],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.74975369458128, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_6f30e29830dd14ed8234ff85ce579767.bindTooltip(
+                `<div>
+                     Couronne - PRUNAY-LE-TEMPLE_SAPC - 14.4°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b3f8f147986757f81fa1462114d566fd = L.circleMarker(
+                [49.015167, 2.534333],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.18841201716738, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_b3f8f147986757f81fa1462114d566fd.bindTooltip(
+                `<div>
+                     Couronne - ROISSY - 16.1°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_727405dd6cf5530238d1be3bd747b478 = L.circleMarker(
+                [49.085667, 2.550667],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.431330472103003, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_727405dd6cf5530238d1be3bd747b478.bindTooltip(
+                `<div>
+                     Couronne - ST WITZ - 15.7°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b063b0d3a6427808baa6abae0d4cd946 = L.circleMarker(
+                [48.706667, 1.745833],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.102620087336241, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_b063b0d3a6427808baa6abae0d4cd946.bindTooltip(
+                `<div>
+                     Couronne - ST-LEGER_SAPC - 16.1°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9107c64ccce9eec0d0abcf88c060b6ee = L.circleMarker(
+                [48.536167, 3.210167],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.637339055793994, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_9107c64ccce9eec0d0abcf88c060b6ee.bindTooltip(
+                `<div>
+                     Couronne - ST-LOUP-DE-NAUD - 16.8°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_235c76445ac44bceef6e6b1a2fa64502 = L.circleMarker(
+                [48.808667, 2.492333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.690557939914164, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_235c76445ac44bceef6e6b1a2fa64502.bindTooltip(
+                `<div>
+                     Couronne - ST-MAUR - 17.3°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ab5cd41a7819b3ac477ee38ffb1b6d28 = L.circleMarker(
+                [48.871333, 2.235333],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.4450643776824, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_ab5cd41a7819b3ac477ee38ffb1b6d28.bindTooltip(
+                `<div>
+                     Couronne - SURESNES - 17.2°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_132dc16be90dc91435ed64bc4c3741bd = L.circleMarker(
+                [48.8635, 2.651],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.668669527896995, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_132dc16be90dc91435ed64bc4c3741bd.bindTooltip(
+                `<div>
+                     Couronne - TORCY - 16.8°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_20fee7d249717f6fd5b2979e3230dfd9 = L.circleMarker(
+                [48.750667, 2.1135],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.147210300429187, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_20fee7d249717f6fd5b2979e3230dfd9.bindTooltip(
+                `<div>
+                     Couronne - TOUSSUS LE NOBLE - 16.1°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0a8f259842a538aab941c44ba3f0582 = L.circleMarker(
+                [48.774333, 2.009833],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.356223175965667, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_e0a8f259842a538aab941c44ba3f0582.bindTooltip(
+                `<div>
+                     Couronne - TRAPPES - 15.7°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8d07343abdf56b40aa11d2e3140468d8 = L.circleMarker(
+                [48.221833, 2.934667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.41802575107296, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_8d07343abdf56b40aa11d2e3140468d8.bindTooltip(
+                `<div>
+                     Couronne - VAUX-SUR-LUNAIN - 16.2°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bd3467c4efb9e49cd0d27d64d26d0a14 = L.circleMarker(
+                [48.803333, 2.09],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.400858369098714, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_bd3467c4efb9e49cd0d27d64d26d0a14.bindTooltip(
+                `<div>
+                     Couronne - VERSAILLES- INRAE - 16.2°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4ffb08683013e3e639f4e75ae14a31f2 = L.circleMarker(
+                [48.7725, 2.204],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.8412017167381975, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_4ffb08683013e3e639f4e75ae14a31f2.bindTooltip(
+                `<div>
+                     Couronne - VILLACOUBLAY - 15.4°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c3b56f6242b93ae3fbd723ed4306cf34 = L.circleMarker(
+                [48.612667, 3.350333],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.972103004291846, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_c3b56f6242b93ae3fbd723ed4306cf34.bindTooltip(
+                `<div>
+                     Couronne - VOULTON_SAPC - 16.0°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75f9800c37b8ab73cb08f378b5957bb1 = L.circleMarker(
+                [49.108167, 1.830667],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.20901287553648, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_75f9800c37b8ab73cb08f378b5957bb1.bindTooltip(
+                `<div>
+                     Couronne - WY-DIT - 15.6°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a27b3c09e127ae39b6595537daece3d6 = L.circleMarker(
+                [48.882833, 2.352],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.740948275862067, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_a27b3c09e127ae39b6595537daece3d6.bindTooltip(
+                `<div>
+                     Paris - LARIBOISIERE - 16.9°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0e75c155539f7e41096280e47c79abd = L.circleMarker(
+                [48.854833, 2.233667],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.856896551724141, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_c0e75c155539f7e41096280e47c79abd.bindTooltip(
+                `<div>
+                     Paris - LONGCHAMP - 16.9°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75669cbe69e7eb4c4b6bcd2fcc20d77a = L.circleMarker(
+                [48.844833, 2.3385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.17284482758621, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_75669cbe69e7eb4c4b6bcd2fcc20d77a.bindTooltip(
+                `<div>
+                     Paris - LUXEMBOURG - 17.6°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8d783b3b2e87348f415bb80c5b041994 = L.circleMarker(
+                [48.821667, 2.337833],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.36508620689655, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_8d783b3b2e87348f415bb80c5b041994.bindTooltip(
+                `<div>
+                     Paris - PARIS-MONTSOURIS - 16.7°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e699417530b051ae22b4739359b285b1 = L.circleMarker(
+                [48.821667, 2.337833],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.10043103448276, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_e699417530b051ae22b4739359b285b1.bindTooltip(
+                `<div>
+                     Paris - PARIS-MONTSOURIS-DOUBLE - 16.6°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8612ef848db4cda6e039b2a130e575b1 = L.circleMarker(
+                [48.858333, 2.2945],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "yellow", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.3482758620689665, "stroke": true, "weight": 3}
+            ).addTo(map_86a7c6d24be4a348948720bbe3788e40);
+        
+    
+            circle_marker_8612ef848db4cda6e039b2a130e575b1.bindTooltip(
+                `<div>
+                     Paris - TOUR EIFFEL - 14.2°C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
