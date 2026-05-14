@@ -76,6 +76,6 @@ Cette analyse présente plusieurs limites :
 
 - le nombre de stations disponibles reste limité
 - seules deux variables explicatives ont été étudiées
-- un modèle linéaire simple a été utilisé
+- un modèle linéaire simple a été utilisé.
 
 Des améliorations possibles incluraient l'intégration de variables environnementales supplémentaires, notamment la végétation et la proximité de l'eau, afin de mieux expliquer les variations locales de température.
