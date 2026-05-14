@@ -22,13 +22,19 @@ Elles contiennent notamment des informations de température utilisées pour l'a
 
 ## Méthode
 
-L'analyse repose sur les étapes suivantes :
+### Partie 1 – Analyse exploratoire des températures
 
-* regroupement des différents fichiers en un seul jeu de données  
-* nettoyage et préparation des données  
-* analyse exploratoire des températures  
-* identification des secteurs les plus chauds  
-* visualisation des résultats (cartes et graphiques)
+* regroupement des différents fichiers en un seul jeu de données
+* nettoyage et préparation des données
+* exploration des températures
+* identification des secteurs les plus chauds
+* visualisation des résultats
+
+### Partie 2 – Analyse des facteurs explicatifs
+
+* étude des relations entre températures et variables explicatives
+* analyses statistiques (corrélations, régressions linéaires)
+* visualisation et analyse des résultats
 
 ## Principaux résultats
 
