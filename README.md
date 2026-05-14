@@ -40,8 +40,6 @@ Elles contiennent notamment des informations de température utilisées pour l'a
 
 Les analyses ont été réalisées à partir des données complètes, puis restreintes à la période estivale (mai à septembre) pour certaines visualisations afin d'isoler les périodes de chaleur.
 
-L'analyse temporelle montre une évolution saisonnière classique des températures, sans apport explicatif supplémentaire.
-
 L'analyse spatiale globale ne met pas en évidence de différence marquée entre Paris et sa proche couronne en termes de températures moyennes.
 
 L'analyse locale permet toutefois d'identifier certaines stations présentant des températures plus élevées, visibles sur les cartes produites.
